@@ -22,7 +22,7 @@
             $mail->addAddress("kirankumardas18091997@gmail.com");         //send to     
             $mail->isHTML(true);                                 
             $mail->Subject ="Test" ;
-            $mail->Body    =    ;
+            $mail->Body    =    ; //put email body
             $mail->send();
             echo "Done";
         } catch (Exception $e) {
